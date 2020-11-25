@@ -5,3 +5,9 @@ https://developer.aliyun.com/mirror/npm/package/generator-wombytes-cpp
 https://github.com/jabaa/generator-wombytes-cpp
 
 https://github.com/CppCon/CppCon2020/blob/main/Presentations/macrofree_testing_with_cpp20/macrofree_testing_with_cpp20__kris_jusiak__cppcon_2020.pdf
+
+Cmake and googletest
+https://levelup.gitconnected.com/how-to-combine-c-cmake-googletest-circleci-docker-and-why-e02d76c060a3
+
+Setting up vscode and CMakeLists.txt
+https://medium.com/@sam.romano18/visual-studio-code-setup-for-beginners-using-c-and-cmake-e92ab4f1fba1
