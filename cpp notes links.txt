@@ -1,0 +1,7 @@
+https://code.visualstudio.com/docs/remote/containers
+
+https://developer.aliyun.com/mirror/npm/package/generator-wombytes-cpp
+
+https://github.com/jabaa/generator-wombytes-cpp
+
+https://github.com/CppCon/CppCon2020/blob/main/Presentations/macrofree_testing_with_cpp20/macrofree_testing_with_cpp20__kris_jusiak__cppcon_2020.pdf
