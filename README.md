@@ -1,8 +1,8 @@
-Advent of Code
+# Advent of Code
 
 CPP Solution(s) in Dev Container
 
-##Build
+## Build
 
 cmake . -B build
 
@@ -13,7 +13,7 @@ cmake ..
 make
 ```
 
-##Run
+## Run
 
 ```
 ./AOCCCP
