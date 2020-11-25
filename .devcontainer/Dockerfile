@@ -10,3 +10,5 @@ FROM mcr.microsoft.com/vscode/devcontainers/cpp:0-${VARIANT}
 #     apt-get autoremove && \
 #     apt-get clean && \
 #     rm -rf /var/lib/apt/lists/*    
+
+RUN mkdir build
