@@ -17,7 +17,7 @@ target_compile_definitions(gtest
     GTEST_LANG_CXX20
     GTEST_HAS_TR1_TUPLE=0
 )
-add_executable(tests)
+add_executable(tests src/solution01.cpp)
 target_sources(tests
   PRIVATE
     unit_tests/Test.cpp

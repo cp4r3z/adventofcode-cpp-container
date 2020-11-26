@@ -9,6 +9,39 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "cmake",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "command": "cmake .."
+        },
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "dependsOn": [
+                "cmake"
+            ]
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [
+                "make"
+            ]
         }
     ]
 }
