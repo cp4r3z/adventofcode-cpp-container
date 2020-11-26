@@ -25,6 +25,11 @@ make
 
 ## Questions
 
+### Code Structure
+
+1. Are there "best practices" or convensions? Can I use a linter to adhere to them?
+1. How to support multiple solutions without having a repo for each or having to run all solutions?
+
 ### VSCode
 
 1. What's c_cpp_properties and why is it specifying a C++ version?
