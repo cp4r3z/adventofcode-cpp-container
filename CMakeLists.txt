@@ -20,7 +20,7 @@ target_compile_definitions(gtest
 add_executable(tests src/solution01.cpp)
 target_sources(tests
   PRIVATE
-    unit_tests/Test.cpp
+    unit_tests/test_solution01.cpp
 )
 set_target_properties(tests PROPERTIES COMPILE_FLAGS "${cxx_strict}")
 target_link_libraries(tests gtest gtest_main)
