@@ -34,6 +34,10 @@ make
 
 1. What's c_cpp_properties and why is it specifying a C++ version?
 
+### Dev Container
+
+1. What kind of performance hit am I taking? Compiling takes... 15 seconds?
+
 ### Build
 
 1. `g++` "simple" build vs CMake
