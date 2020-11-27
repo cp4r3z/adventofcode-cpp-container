@@ -1,3 +1,34 @@
+# Questions / Ideas
+
+## Code Structure
+
+1. Are there "best practices" or convensions? Can I use a linter to adhere to them?
+1. It seems like other devs create an `include` folder as a sibling of src. Thoughts?
+1. How to support multiple solutions without having a repo for each or having to run all solutions?
+
+## VSCode
+
+1. What's c_cpp_properties and why is it specifying a C++ version?
+
+## Dev Container
+
+1. What kind of performance hit am I taking? Compiling takes... 15 seconds?
+
+## Build
+
+1. `g++` "simple" build vs CMake
+
+## CMake
+
+1. Do I really have to add _all_ executables/libraries? `add_executable(tests src/solution01.cpp)` or is there an easier way?
+1. What's a kit? Is that a compiler? Which one to use?
+
+## CPP
+
+1. Which "version" of C++ to use?
+1. Garbage collection?
+1. << vs ()
+
 # Try Out Development Containers: C++
 
 This is a sample project that lets you try out the **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension in a few easy steps.
@@ -39,22 +70,3 @@ Some things to try:
    - Add a breakpoint (e.g. on line 7).
    - Press <kbd>F5</kbd> to launch the app in the container.
    - Once the breakpoint is hit, try hovering over variables, examining locals, and more.
-
-## Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## License
-
-Copyright © Microsoft Corporation All rights reserved.<br />
-Licensed under the MIT License. See LICENSE in the project root for license information.
