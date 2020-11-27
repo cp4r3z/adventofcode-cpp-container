@@ -28,6 +28,7 @@ make
 ### Code Structure
 
 1. Are there "best practices" or convensions? Can I use a linter to adhere to them?
+1. It seems like other devs create an `include` folder as a sibling of src. Thoughts?
 1. How to support multiple solutions without having a repo for each or having to run all solutions?
 
 ### VSCode
