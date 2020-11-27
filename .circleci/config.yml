@@ -3,7 +3,7 @@ version: 2.1
 executors:
   exectr:
     docker:
-      - image: YourGitHubName/YourDockerRepoName:latest
+      - image: cp4r/aoccpp:latest
 jobs:
   build:
     executor: exectr
