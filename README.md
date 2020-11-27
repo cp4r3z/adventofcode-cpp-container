@@ -53,3 +53,9 @@ make
 1. Which "version" of C++ to use?
 1. Garbage collection?
 1. << vs ()
+
+## References
+
+### Repository and Unit Test Setup
+
+https://levelup.gitconnected.com/how-to-combine-c-cmake-googletest-circleci-docker-and-why-e02d76c060a3
