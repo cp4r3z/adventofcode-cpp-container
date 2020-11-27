@@ -1,6 +1,12 @@
 # Advent of Code
 
-CPP Solution(s) in Dev Container
+[![cp4r3z>](https://circleci.com/gh/cp4r3z/adventofcode-cpp-container.svg?style=shield)](https://app.circleci.com/pipelines/github/cp4r3z/adventofcode-cpp-container)
+
+**Solution(s) to the annual https://adventofcode.com/ programming puzzles**
+
+* Written in C++
+* Developed in [Remote Dev Container](https://code.visualstudio.com/docs/remote/containers)
+* Unit Tested by [GoogleTest](https://github.com/google/googletest/)
 
 ## Build
 
