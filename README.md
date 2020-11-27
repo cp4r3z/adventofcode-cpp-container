@@ -23,7 +23,7 @@ make
 ./AOCCCP
 ```
 
-## Questions
+## Questions / Ideas
 
 ### Code Structure
 
