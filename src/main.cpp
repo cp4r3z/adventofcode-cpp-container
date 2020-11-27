@@ -14,11 +14,12 @@ int main()
     vector<int> v;
     string line;    
 
-    ifstream fin("solution01_input.txt");
-    while (getline(fin, line))
+    ifstream infile("src/solution01_input.txt");
+    while (getline(infile, line))
     {
         v.push_back(stoi(line));
     }
+    infile.close();
 
     int mass0 = 1;
     //int fuel0 = 2;
