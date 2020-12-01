@@ -23,22 +23,12 @@ int main()
     }
     inputFile.close();
 
-    for (auto x : entities)
-    {
-        // cout << x << ' ';
-    }
-
-    for (size_t i = 0; i < entities.size(); i++)
-    {
-        /* code */
-    }
-
-    bool answerFound = false;
+    bool part1Found = false;
 
     for (std::size_t i = 0; i != entities.size(); ++i)
     {
         // access element as v[i]
-        if (answerFound)
+        if (part1Found)
             break;
 
         for (std::size_t j = 0; j != entities.size(); ++j)
@@ -47,7 +37,7 @@ int main()
             if (entities[i] + entities[j] == 2020)
             {
                 cout << entities[i] << " x " << entities[j] << " = " << entities[i] * entities[j] << endl;
-                answerFound = true;
+                part1Found = true;
                 break;
             }
         }
@@ -76,16 +66,6 @@ int main()
             }
         }
     }
-
-    // // Operation to sum the fuel requirements for each mass
-    // auto ConvertToFuel = [](int acc, int mass) {
-    //     return move(acc) + GetFuelRequirement(mass);
-    // };
-
-    // // Accumulate all fuel requirements
-    // int totalFuelRequirement = accumulate(masses.begin(), masses.end(), 0, ConvertToFuel);
-
-    // cout << "Day 1 Solution Part 1: Fuel Requirement: " << totalFuelRequirement << "\n\n";
 
     return 0;
 }

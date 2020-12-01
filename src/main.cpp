@@ -13,13 +13,13 @@ string INPUT_PATH = "src/solution01_input.txt";
 int main()
 {
     // Read the input file into a vector
-    vector<int> entries;
+    vector<int> masses;
     string line;
 
     ifstream inputFile(INPUT_PATH);
     while (getline(inputFile, line))
     {
-        entries.push_back(stoi(line));
+        masses.push_back(stoi(line));
     }
     inputFile.close();    
 
