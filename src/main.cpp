@@ -13,25 +13,15 @@ string INPUT_PATH = "src/solution01_input.txt";
 int main()
 {
     // Read the input file into a vector
-    vector<int> masses;
+    vector<int> entries;
     string line;
 
     ifstream inputFile(INPUT_PATH);
     while (getline(inputFile, line))
     {
-        masses.push_back(stoi(line));
+        entries.push_back(stoi(line));
     }
-    inputFile.close();
-
-    // Operation to sum the fuel requirements for each mass
-    auto ConvertToFuel = [](int acc, int mass) {
-        return move(acc) + GetFuelRequirement(mass);
-    };
-
-    // Accumulate all fuel requirements
-    int totalFuelRequirement = accumulate(masses.begin(), masses.end(), 0, ConvertToFuel);
-
-    cout << "Day 1 Solution Part 1: Fuel Requirement: " << totalFuelRequirement << "\n\n";
+    inputFile.close();    
 
     return 0;
 }
